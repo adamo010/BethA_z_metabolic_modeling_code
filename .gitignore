@@ -1,0 +1,52 @@
+#this is a gitignore file for the MICOM_CRC_FBA directory
+.DS_Store
+ASV_tables_Muehlbauer2021/
+CRC_OTU_tables_Niccolai2020/
+CRC_OTU_tables_Hale2018/
+CRC_OTU_tabes_Yuan2018/
+Archived_contaminant_removal/
+Archived data from old runs/
+Sample_abundances_and_models/
+fastqc/
+Muehlbauer2021_output_from_MSI/
+Niccolai2020_output_from_MSI/
+Pickle_files_for_comms/
+Archived_building_Hale2018_MICOM_communities/
+Hale_OTU_specific_abundance_tables/
+MICOM_on_MSI_junk_files/
+Building_MICOM_communities_Niccolai2020/
+Hale2018_MICOM_output_from_MSI/
+Hale2018_old_slurm_run_outfiles/
+Common_growth_medium_runs/
+Parallelizing_coop_tradeoffs_on_MSI/
+MICOM_on_MSI/
+OTU_models/
+Post_MICOM_analyses OLD/
+Archived extra stuff/
+EUstd_diet_results/
+msi_errors/
+EUstd_host_spent_med_localgen/
+old_files_that_failed/
+Failed_MSI_scripts/
+0_Archived_model_building_and_combining/
+Alexandra_Faecalibacterium_seqs/
+0_genome_seqs_for_model_building/
+MAMBO_models/
+AGORA_models/
+Indiv_specific_model_picking/
+otu_table_analysis_in_R/
+*.tsv
+*.csv
+*.txt
+*.mat
+*.pdf
+*.out
+*.mat
+*.pickle
+*.docx
+*.xml
+*.xlsx
+*.pptx
+*.log
+*.html
+*.cys

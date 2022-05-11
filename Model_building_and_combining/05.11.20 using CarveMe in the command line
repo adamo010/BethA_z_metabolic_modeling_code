@@ -1,0 +1,36 @@
+#today I am going to work on building metabolic models from scratch using CarveMe.
+#step 0: pip install carveme into this environment.
+#also need to install cplex; the default is (hopefully, according to update release notes) gurobi, but carveme won't
+#import without cplex
+#step 0.1: pip install cplex
+#oh boy, have to get an academic license and everything for this sucker. Great. Stay tuned.
+#cplex is now installed (minus the API, which I can't figure out), as is CarveMe
+
+carve Victivallis_vadensis_DSM_14823_protein.faa
+#oh. What if this goes in the command line and not in spyder?
+
+#so, computing is terrible and I don't understand what anything is.
+
+#trying this in the terminal. First, start up the MICOM_CRC_FBA_02.2020
+#virtual environment and navigate to the correct folder:
+#Documents/MICOM_CRC_FBA/Model_building_and_combining/0_genome_seqs_for_model_building
+#note that C= pwd prints working directory.
+
+#well, it took about 45 seconds and made a .tsv file: is this useful? I don't know.
+
+#try this: carve Victivallis_vadensis_DSM_14823_protein.faa --output Victivallis_vadensis_DSM_14823.xml
+
+#still getting this error:
+File "/Users/adamo010/anaconda3/envs/MICOM_CRC_FBA_02.2020/lib/python3.7/site-packages/pandas/core/internals/blocks.py", line 125, in __init__
+    f"Wrong number of items passed {len(self.values)}, "
+ValueError: Wrong number of items passed 2, placement implies 1
+
+#don't know what's up here.
+
+#05.13.20 new error: Error: Error opening file Victivallis_vadensis_DSM_14823_protein.faa
+Failed to run diamond.
+
+#i pip install(ed) diamond
+#this did not help.
+
+#so, according to githubs, this seems like a python2 vs python3 issue. Need to set up a new virtual environment that has python2.7 to deal with this. 
